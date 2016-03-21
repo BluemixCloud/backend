@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluemixCloud/backend.git"
+  },
+  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BluemixCloud/backend/issues"
+  },
+  "homepage": "https://github.com/BluemixCloud/backend#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  }
+}
